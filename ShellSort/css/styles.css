@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  color: #ff2e63;
+}
+
+.shell__sort {
+  background: #222831;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.numbers {
+  display: flex;
+}
+.nums,
+.gap__size {
+  margin: 0 1em;
+  color: #eee;
+}
+.container {
+  display: flex;
+}
+.box {
+  position: relative;
+  margin: 0 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6em;
+  height: 6em;
+  border: 2px solid #00adb5;
+}
+.empty {
+  opacity: 0;
+}
+.temp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.temp__nums {
+  position: relative;
+}
+.demo {
+  opacity: 0;
+  position: absolute;
+}
+.value {
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.temptext {
+  transform: translateY(100%);
+  font-size: medium;
+}
+.buttons {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.controls {
+  display: flex;
+}
+.btn1 {
+  transition: 0.3s;
+  cursor: pointer;
+  margin: 0 1em;
+}
+/* hover */
+.btn1:hover {
+  transition: 0.2s;
+  transform: scale(1.2);
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg)
+    brightness(118%) contrast(119%);
+}
+.box:hover {
+  transition: 0.2s;
+  border-width: 6px;
+  transform: scale(1.2);
+  cursor: pointer;
+}

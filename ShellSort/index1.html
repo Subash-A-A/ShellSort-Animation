@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>ShellSort</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+      defer
+    ></script>
+    <script src="./js/app1.js" defer></script>
+  </head>
+  <body>
+    <div class="shell__sort">
+      <div class="numbers">
+        <h1 class="nums">3</h1>
+        <h1 class="nums">2</h1>
+        <h1 class="nums">12</h1>
+        <h1 class="nums">34</h1>
+        <h1 class="nums">54</h1>
+      </div>
+      <h1 class="gap__size">Gap = n/4 = 5/4 = 1</h1>
+      <div class="container">
+        <div class="box box1">
+          <h1 class="demo b1-12">12</h1>
+          <h1 class="demo b1-3">3</h1>
+          <h1 class="demo b1-2">2</h1>
+        </div>
+        <div class="box box2">
+          <h1 class="demo b2-34">34</h1>
+          <h1 class="demo b2-2">2</h1>
+          <h1 class="demo b2-3">3</h1>
+        </div>
+        <div class="box box3">
+          <h1 class="demo b3-54">54</h1>
+          <h1 class="demo b3-3">3</h1>
+          <h1 class="demo b3-12">12</h1>
+        </div>
+        <div class="box box4">
+          <h1 class="demo b4-2">2</h1>
+          <h1 class="demo b4-34">34</h1>
+        </div>
+        <div class="box box5">
+          <h1 class="demo b5-3">3</h1>
+          <h1 class="demo b5-54">54</h1>
+        </div>
+      </div>
+      <div class="box temp">
+        <div class="temp__nums">
+          <h1 class="value t54">54</h1>
+          <h1 class="value t2">2</h1>
+          <h1 class="value t3">3</h1>
+          <h1 class="value t12">12</h1>
+          <h1 class="value t34">34</h1>
+        </div>
+        <h1 class="temptext">Temp</h1>
+      </div>
+      <div class="buttons">
+        <a href="./index.html"
+          ><img src="./svgs/skip_previous_white_24dp.svg" class="btn1"
+        /></a>
+        <div class="controls">
+          <img src="./svgs/fast_rewind_white_24dp.svg" class="btn1 reverseff" />
+          <img src="./svgs/pause_white_24dp.svg" class="btn1 pause" />
+          <img src="./svgs/play_arrow_white_24dp.svg" class="btn1 play" />
+          <img src="./svgs/fast_forward_white_24dp.svg" class="btn1 playff" />
+        </div>
+        <a href="./index1.html"
+          ><img src="./svgs/skip_next_white_24dp.svg" class="btn1"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
