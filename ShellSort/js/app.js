@@ -11,12 +11,16 @@ tl
     // Text Entry
     .from('.nums', {opacity: 0, y: '-100%', stagger: 0.2, ease: 'bounce'})
     .from('.gap__size', {opacity: 0, y: '-100%'})
+    
+    // Box appear
+    .from('.box', {opacity: 0, y:'-100%', stagger:0.1})
     //appear
     .to('.b1-12', {opacity: 1})
     .to('.b2-34', {opacity: 1})
     .to('.b3-54', {opacity: 1})
     .to('.b4-2', {opacity: 1})
     .to('.b5-3', {opacity: 1})
+
 
     // move value to tempBox
     .to('.b3-54', {opacity: 0})

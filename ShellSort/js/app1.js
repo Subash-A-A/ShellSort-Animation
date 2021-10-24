@@ -11,6 +11,9 @@ tl
     // Text Entry
     .from('.nums', {opacity: 0, y: '-100%', stagger: 0.2, ease:'bounce'})
     .from('.gap__size', {opacity: 0, y: '-100%'})
+    
+    // Box appear
+    .from('.box', {opacity: 0, y:'-100%', stagger:0.1})
     //appear
     .to('.b1-3', {opacity: 1})
     .to('.b2-2', {opacity: 1})
@@ -63,6 +66,7 @@ tl
 
     .to('.t54', {opacity: 0})
     .to('.b5-54', {opacity: 1})
+    .from('.para', {opacity: 0, y:'-100%', ease: 'bounce'})
     
     
 fastf.addEventListener('click', ()=>{
